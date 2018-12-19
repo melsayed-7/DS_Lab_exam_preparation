@@ -1,3 +1,7 @@
 Debug
-
 .vs
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
