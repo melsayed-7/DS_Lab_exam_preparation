@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab 5 - Queues", "Lab 5 - Queues\Lab 5 - Queues.vcxproj", "{17C15AF1-5293-465A-98E7-62BA07E3D9AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Passing_Queues", "Passing_Queues\Passing_Queues.vcxproj", "{D4AA03D5-013A-4F31-A2CA-5341CDDF5E63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17C15AF1-5293-465A-98E7-62BA07E3D9AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17C15AF1-5293-465A-98E7-62BA07E3D9AE}.Debug|Win32.Build.0 = Debug|Win32
+		{17C15AF1-5293-465A-98E7-62BA07E3D9AE}.Release|Win32.ActiveCfg = Release|Win32
+		{17C15AF1-5293-465A-98E7-62BA07E3D9AE}.Release|Win32.Build.0 = Release|Win32
+		{D4AA03D5-013A-4F31-A2CA-5341CDDF5E63}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4AA03D5-013A-4F31-A2CA-5341CDDF5E63}.Debug|Win32.Build.0 = Debug|Win32
+		{D4AA03D5-013A-4F31-A2CA-5341CDDF5E63}.Release|Win32.ActiveCfg = Release|Win32
+		{D4AA03D5-013A-4F31-A2CA-5341CDDF5E63}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-AdjList", "1-AdjList\1-AdjList.vcxproj", "{DC0F6487-BA6F-44E5-8472-37FA7106326C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-AdjMatrix", "2-AdjMatrix\2-AdjMatrix.vcxproj", "{B1E53E86-E487-4200-A349-7AE2988AE3D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-Dijkstra", "3-Dijkstra\3-Dijkstra.vcxproj", "{C44374F6-97D8-40A0-ACB4-53C70CDA29F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC0F6487-BA6F-44E5-8472-37FA7106326C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC0F6487-BA6F-44E5-8472-37FA7106326C}.Debug|Win32.Build.0 = Debug|Win32
+		{DC0F6487-BA6F-44E5-8472-37FA7106326C}.Release|Win32.ActiveCfg = Release|Win32
+		{DC0F6487-BA6F-44E5-8472-37FA7106326C}.Release|Win32.Build.0 = Release|Win32
+		{B1E53E86-E487-4200-A349-7AE2988AE3D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1E53E86-E487-4200-A349-7AE2988AE3D1}.Debug|Win32.Build.0 = Debug|Win32
+		{B1E53E86-E487-4200-A349-7AE2988AE3D1}.Release|Win32.ActiveCfg = Release|Win32
+		{B1E53E86-E487-4200-A349-7AE2988AE3D1}.Release|Win32.Build.0 = Release|Win32
+		{C44374F6-97D8-40A0-ACB4-53C70CDA29F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C44374F6-97D8-40A0-ACB4-53C70CDA29F5}.Debug|Win32.Build.0 = Debug|Win32
+		{C44374F6-97D8-40A0-ACB4-53C70CDA29F5}.Release|Win32.ActiveCfg = Release|Win32
+		{C44374F6-97D8-40A0-ACB4-53C70CDA29F5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

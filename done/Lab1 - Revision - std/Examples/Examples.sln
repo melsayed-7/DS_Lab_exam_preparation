@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1_Pointers", "Ex1_Pointers\Ex1_Pointers.vcxproj", "{1C290D22-790E-4885-AD7A-54B012B88453}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex2_Arrays_and_Pointers", "Ex2_Arrays_and_Pointers\Ex2_Arrays_and_Pointers.vcxproj", "{3E363A58-0839-459A-92DE-72778C2CCE00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EX3_Arr_of_Obj_and_of_Ptrs", "EX3_Arr_of_Obj_and_of_Ptrs\EX3_Arr_of_Obj_and_of_Ptrs.vcxproj", "{6693971B-05B2-42DE-B179-B7C5173A6998}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C290D22-790E-4885-AD7A-54B012B88453}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C290D22-790E-4885-AD7A-54B012B88453}.Debug|Win32.Build.0 = Debug|Win32
+		{1C290D22-790E-4885-AD7A-54B012B88453}.Release|Win32.ActiveCfg = Release|Win32
+		{1C290D22-790E-4885-AD7A-54B012B88453}.Release|Win32.Build.0 = Release|Win32
+		{3E363A58-0839-459A-92DE-72778C2CCE00}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E363A58-0839-459A-92DE-72778C2CCE00}.Debug|Win32.Build.0 = Debug|Win32
+		{3E363A58-0839-459A-92DE-72778C2CCE00}.Release|Win32.ActiveCfg = Release|Win32
+		{3E363A58-0839-459A-92DE-72778C2CCE00}.Release|Win32.Build.0 = Release|Win32
+		{6693971B-05B2-42DE-B179-B7C5173A6998}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6693971B-05B2-42DE-B179-B7C5173A6998}.Debug|Win32.Build.0 = Debug|Win32
+		{6693971B-05B2-42DE-B179-B7C5173A6998}.Release|Win32.ActiveCfg = Release|Win32
+		{6693971B-05B2-42DE-B179-B7C5173A6998}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

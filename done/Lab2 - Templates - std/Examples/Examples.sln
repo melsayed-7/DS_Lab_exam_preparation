@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_GetMax", "1_GetMax\1_GetMax.vcxproj", "{14093952-FF40-4402-8373-27F853E84A87}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_MyArray", "2_MyArray\2_MyArray.vcxproj", "{49E33E89-1963-42E7-A567-C217460D6EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14093952-FF40-4402-8373-27F853E84A87}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14093952-FF40-4402-8373-27F853E84A87}.Debug|Win32.Build.0 = Debug|Win32
+		{14093952-FF40-4402-8373-27F853E84A87}.Release|Win32.ActiveCfg = Release|Win32
+		{14093952-FF40-4402-8373-27F853E84A87}.Release|Win32.Build.0 = Release|Win32
+		{49E33E89-1963-42E7-A567-C217460D6EDC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49E33E89-1963-42E7-A567-C217460D6EDC}.Debug|Win32.Build.0 = Debug|Win32
+		{49E33E89-1963-42E7-A567-C217460D6EDC}.Release|Win32.ActiveCfg = Release|Win32
+		{49E33E89-1963-42E7-A567-C217460D6EDC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
