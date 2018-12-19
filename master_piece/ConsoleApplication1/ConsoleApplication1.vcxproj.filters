@@ -22,9 +22,6 @@
     <Filter Include="Header Files\Queue">
       <UniqueIdentifier>{7a543ca9-da6d-49e0-92b2-7edffbba3680}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Khaled%27s_Queue">
-      <UniqueIdentifier>{38f0a2ed-19b1-410b-97b4-4ba98c3dba13}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Heap">
       <UniqueIdentifier>{490cfbf1-b899-4ec7-a911-8999e3d31596}</UniqueIdentifier>
     </Filter>
@@ -36,6 +33,9 @@
     </Filter>
     <Filter Include="Header Files\BST">
       <UniqueIdentifier>{febf45e9-4b3b-4a8d-9188-9e560f912b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hybrid_Queue">
+      <UniqueIdentifier>{38f0a2ed-19b1-410b-97b4-4ba98c3dba13}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -60,12 +60,6 @@
     <ClInclude Include="Queue\Queue.h">
       <Filter>Header Files\Queue</Filter>
     </ClInclude>
-    <ClInclude Include="khaled%27s_Queue\Node.h">
-      <Filter>Header Files\Khaled%27s_Queue</Filter>
-    </ClInclude>
-    <ClInclude Include="khaled%27s_Queue\Queue.h">
-      <Filter>Header Files\Khaled%27s_Queue</Filter>
-    </ClInclude>
     <ClInclude Include="Heap\Heap.h">
       <Filter>Header Files\Heap</Filter>
     </ClInclude>
@@ -83,6 +77,12 @@
     </ClInclude>
     <ClInclude Include="BST\TreeNode.h">
       <Filter>Header Files\BST</Filter>
+    </ClInclude>
+    <ClInclude Include="Hybrid_Queue\Node.h">
+      <Filter>Header Files\Hybrid_Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Hybrid_Queue\Queue.h">
+      <Filter>Header Files\Hybrid_Queue</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

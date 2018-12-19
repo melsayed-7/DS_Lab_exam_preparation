@@ -158,8 +158,8 @@
     <ClInclude Include="graph_adj_matrix\GraphAdjMatrix.h" />
     <ClInclude Include="Heap\Heap.h" />
     <ClInclude Include="Heap\HeapItem.h" />
-    <ClInclude Include="khaled%27s_Queue\Node.h" />
-    <ClInclude Include="khaled%27s_Queue\Queue.h" />
+    <ClInclude Include="Hybrid_Queue\Node.h" />
+    <ClInclude Include="Hybrid_Queue\Queue.h" />
     <ClInclude Include="linked_list\LinkedList.h" />
     <ClInclude Include="linked_list\Node.h" />
     <ClInclude Include="Queue\Node.h" />
