@@ -6,12 +6,17 @@
 
 // if you are going to use linked list header file then don't include "stack2.h" and vice versa ,as both have a calss called "Node" and this blows the code up
 // alternativly you can use "stack.h" when you include "linkedlist.h" 
-//
+
+
 //#include "linked_list/LinkedList.h"
-//#include "stack/Stack.h" // array based implementation
-//#include "stack/Stack2.h"//linked list based implementation
-//#include "Queue/Queue.h"// this is the generic one sent as downloaded on moodle
-//#include "khaled's_Queue/Queue.h"
+//#include "stack/Stack.h"				// array based implementation
+//#include "stack/Stack2.h"				//linked list based implementation
+//#include "Queue/Queue.h"				// this is the generic one sent as downloaded on moodle
+//#include "khaled's_Queue/Queue.h"		// almost the same but it has a function called push to front (basically can work like a stack or queue or a hybrid)
+//#include "Heap/Heap.h"
+//#include "graph_adj_list/GraphAdjList.h"
+//#include "graph_adj_matrix/GraphAdjMatrix.h"
+//#include "BST/BSTree.h"
 
 using namespace std;
 
@@ -20,10 +25,91 @@ int main()
 {
 
 }
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+/*
+int main()
+{
+	BSTree<int> bst;
+
+	//build tree       8 
+	//               /   \ 
+	//              3     13
+	//             / \   / 
+	//            1   4 9
+
+	//==============================================================
+	//							InsertBST function
+	//==============================================================
+	cout << "building the tree with sequence 8 13 3 9 1 4" << endl << endl;
+	bst.insertBST(8);
+	bst.insertBST(13);
+	bst.insertBST(3);
+	bst.insertBST(9);
+	bst.insertBST(1);
+	bst.insertBST(4);
+
+	//==============================================================
+	//							Traversal
+	//==============================================================
+	// traverse the tree with different schemes
+	cout << "The tree pre-order traversal" << endl;
+	bst.preorder_traverse();
+	cout << endl;
+
+	cout << "The tree in-order traversal" << endl;
+	bst.inorder_traverse();
+	cout << endl;
+
+	cout << "The tree post-order traversal" << endl;
+	bst.postorder_traverse();
+	cout << endl;
+	bst.lessthan(bst.root, 10);
+	//==============================================================
+	//							Destroy
+	//==============================================================
+	cout << "Destroying tree " << endl;
+	bst.destroy_tree();
 
 
 
-// copy any code and run it in the main
+	return 0;
+}
+*/
+
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//heap test main
+/*
+int main()
+{
+	Heap<int>* h = new Heap<int>(98);
+	for (int i=-50;i<0;i++)
+	{
+		h->Enqueue(i, i);
+	}
+	for (int i = -50; i < 0; i++)
+	{
+		h->Enqueue(i, i);
+	}
+	h->printAll();
+
+	//for (int i = -50; i < 0; i++)
+	//{
+	//	cout<<h->Dequeue()->getData()<<endl;
+	//}
+	//for (int i = -50; i < 0; i++)
+	//{
+	//	cout << h->Dequeue()->getData() << endl;
+	//}
+
+}
+
+*/
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 // linked list main
